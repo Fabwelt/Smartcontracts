@@ -1,4 +1,4 @@
-# Smartcontracts
+# Fabwelt Project
 
 Fabwelt Token is a revolutionary concept which brings the world of blockchain, NFTs and future gaming together. Gaming is a big growing industry in this period. It is expected to grow with diverse opportunities for user wanting it. Blockchain industry provides a breathtaking platform for all the gamers which is fruitful to many of them in terms of utilities, incentives, and rewards.
 Fabwelt is about innovation, it integrates the world of NFTs with the Gaming industry. Gamers and Artists are now one unit, exchanging digital entities with the help of FWLT tokens. The idea is to combine the advantages of blockchain technology and the reach of it to millions waiting for an opportunity. 
