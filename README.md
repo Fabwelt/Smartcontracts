@@ -9,10 +9,15 @@ With todays and the future technology, Fabwelt introduces NFT integration to gam
 To take gameplay to a broader level for non in-game players and real life sports matches Fabwelt also introduces fantasy gaming as the utility for FWLT token. It eliminates the limitation of fantasy gaming admirers by bringing all of them together at one place. Currently, Fantasy sports is limited to offline or online applications, which can be sometimes boring and less encouraging. The gaming idea motivates all the fantasy players by rewarding the winners and allowing them to participate in designing their own game rules. Freedom is immense and opportunities are never ending. An ecosystem which covers almost all the sports fantasy existing, giving the players a chance to interact with each other over the gaming portals and rooms. Fabwelt makes these gaming enjoyable as it is not only fun to perform but also it would be life changing for many users in many ways. 
 
 Fabwelt will produce a wide range of utility for its main token FWLT:
+
 •	NFTs as in-game utility
+
 •	Fantasy game integration
+
 •	Staking
+
 •	NFT market
+
 •	Giving upcoming artist a unique platform concept
  
 # NFT as in-game utility
