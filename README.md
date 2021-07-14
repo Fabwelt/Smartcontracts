@@ -22,10 +22,15 @@ Fabwelt will produce a wide range of utility for its main token FWLT:
  
 # NFT as in-game utility
 Fabwelt brings the NFT world and gaming together on the Polygon (previously known as Matic) Network. We do this by creating and integrating existing games on the blockchain where an NFT represents a game settings or game rule. An NFT has a specific setting and or rule that the owner can use in the games while they are playing it. Using these NFTs can give a player very specific but limited advantage over other players in-game match. For example, these advantages in a 3d shooter could be:
+
 •	Infinite ammo for 5 minutes
+
 •	Changing the level that’s being played from daylight to night
+
 •	Freeze all opponents for 5 seconds
+
 •	Change an overall rule like all payers standing still longer than 10 seconds loose
+
 •	Give a player extra health or boost for an amount of time
  
 These are just small examples of what a NFT could represent in a game. Fabwelt provides hundreds of different types of NFTs to use in-game with each with its own specific rule or setting. The NFTs and what they can do should be wisely chosen by the player as part of their game strategy based upon their opponents, level, tournament, etc.
@@ -43,22 +48,33 @@ All aspects are controlled by the smart contract for a specific room. This way r
 Fabwelt will extend these fantasy game rooms not only to real life games such as football, cricket, etc. but also to all tournaments that will be hosted by Fabwelt or hosted by others using the Fabwelt in-game NFT system.
 
 #Staking & Rewards 
-Fabwelt takes care of the users by incentivizing them in an optimized way, which cannot be compared to any traditional bank or financial institution. It is created to benefit the token holders with maximum possible gains. Fabwelt is just nothing without them. To provide the incentives to our trusted holders we create a staking mechanism that will provide the users’ gifts or rewards in the form of FWLT tokens. Imagine, a currency in your wallet increasing in numbers just with time, only by providing Fabwelt your tokens in the form of staking. Holders are still the owners of the tokens while Fabwelt uses them to let them perform in the background. Also, with the developing community, the power and value of the FWLT token increases in the future. There are two benefits of staking: 
+Fabwelt takes care of the users by incentivizing them in an optimized way, which cannot be compared to any traditional bank or financial institution. It is created to benefit the token holders with maximum possible gains. Fabwelt is just nothing without them. To provide the incentives to our trusted holders we create a staking mechanism that will provide the users’ gifts or rewards in the form of FWLT tokens. Imagine, a currency in your wallet increasing in numbers just with time, only by providing Fabwelt your tokens in the form of staking. Holders are still the owners of the tokens while Fabwelt uses them to let them perform in the background. Also, with the developing community, the power and value of the FWLT token increases in the future. 
+
+There are two benefits of staking: 
+
 · FWLT tokens as rewards 
+
 · Improved value of individual FWLT token 
 
 Such a model with clear transparency makes it justifiable for the users to build a long-term relationship with FABWELT which is the primary fuel for it to grow and keep developing products.  
-Fabwelt token & staking details
 
 The Fabwelt token is an ERC-20 standard-based Polygon (previous Matic) token (FWLT). 
 Fabwelt token contract has built in transaction fees for various purposes. The contract will be renounced after successful public pre-sale eliminating the Fabwelt team to change fees in the future. The token contract has no mint function available.
 
 Tokenomics for Fabwelt are:
+
 •	Maximum supply of 500 Million FWLT tokens
+
 •	1% liquidity fee
+
 •	1% tax for holders at every transaction
+
 •	1% governance fee at every transaction to development wallet
+
 •	Maximum of 2% of circulation supply wallet transfer per transaction (antiwhale)
+
 •	100 Million FWLT tokens will be reserved for staking rewards
+
 •	25 Million FWLT token will be reserved for development and marketing
+
 •	20 Million FWLT tokens will be reserved for bounty programs
