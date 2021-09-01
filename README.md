@@ -65,17 +65,30 @@ The Fabwelt token is an ERC-20 standard-based Polygon (previous Matic) token (WE
 Tokenomics for Fabwelt are:
 
 • Maximum supply of 500 million tokens
+
 • Initial circulating supply of 275 million tokens
+
 • 1% tax for holders at every transaction
+
 • 1% governance fee at every transaction to development wallet
+
 • Maximum of 2% of circulation supply wallet transfer per transaction (anti-whale)
+
 • 225 million tokens reserved for Unlocking Mechanism
+
 • 100 million tokens will be reserved for staking and gaming rewards
+
 • 20 million tokens will be reserved for development and marketing
+
   (Locked in 8 equal periods every 2 months starting at first liquidity lock)
+  
 • 25 million tokens will be reserved for advisory board
   (All issued tokens will be vested)
+  
 • 5 million tokens will be reserved for bounty programs
+
   (locked until end of each bounty program)
 • 25 million tokens will be reserved for private seed round funding
-• 100 million tokens will be reserved for pre-sale (unsold tokens will be burned)
+
+• 100 million tokens will be reserved for pre-sale 
+  (unsold tokens will be burned)
