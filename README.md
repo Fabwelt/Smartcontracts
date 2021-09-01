@@ -12,6 +12,8 @@ Fabwelt will produce a wide range of utility for its main token FWLT:
 
 •	NFTs as in-game utility
 
+•	Play to Earn
+
 •	Fantasy game integration
 
 •	Staking
@@ -47,7 +49,7 @@ For a football game, teams (11players * 2 teams = 22 players) are announced 60 m
 All aspects are controlled by the smart contract for a specific room. This way rules, randomizing, choices, entering fee and rewards are secured and authenticated.
 Fabwelt will extend these fantasy game rooms not only to real life games such as football, cricket, etc. but also to all tournaments that will be hosted by Fabwelt or hosted by others using the Fabwelt in-game NFT system.
 
-#Staking & Rewards 
+# Staking & Rewards 
 Fabwelt takes care of the users by incentivizing them in an optimized way, which cannot be compared to any traditional bank or financial institution. It is created to benefit the token holders with maximum possible gains. Fabwelt is just nothing without them. To provide the incentives to our trusted holders we create a staking mechanism that will provide the users’ gifts or rewards in the form of FWLT tokens. Imagine, a currency in your wallet increasing in numbers just with time, only by providing Fabwelt your tokens in the form of staking. Holders are still the owners of the tokens while Fabwelt uses them to let them perform in the background. Also, with the developing community, the power and value of the FWLT token increases in the future. 
 
 There are two benefits of staking: 
@@ -58,23 +60,22 @@ There are two benefits of staking:
 
 Such a model with clear transparency makes it justifiable for the users to build a long-term relationship with FABWELT which is the primary fuel for it to grow and keep developing products.  
 
-The Fabwelt token is an ERC-20 standard-based Polygon (previous Matic) token (FWLT). 
-Fabwelt token contract has built in transaction fees for various purposes. The contract will be renounced after successful public pre-sale eliminating the Fabwelt team to change fees in the future. The token contract has no mint function available.
-
+# Tokenomics
+The Fabwelt token is an ERC-20 standard-based Polygon (previous Matic) token (WELT). Fabwelt token contract has built in transaction fees for various purposes. The contract will be renounced after successful liquidity lock eliminating the Fabwelt team to change fees in the future. The token contract has no mint function available.
 Tokenomics for Fabwelt are:
 
-•	Maximum supply of 500 Million FWLT tokens
-
-•	1% liquidity fee
-
-•	1% tax for holders at every transaction
-
-•	1% governance fee at every transaction to development wallet
-
-•	Maximum of 2% of circulation supply wallet transfer per transaction (antiwhale)
-
-•	100 Million FWLT tokens will be reserved for staking rewards
-
-•	25 Million FWLT token will be reserved for development and marketing
-
-•	20 Million FWLT tokens will be reserved for bounty programs
+• Maximum supply of 500 million tokens
+• Initial circulating supply of 275 million tokens
+• 1% tax for holders at every transaction
+• 1% governance fee at every transaction to development wallet
+• Maximum of 2% of circulation supply wallet transfer per transaction (anti-whale)
+• 225 million tokens reserved for Unlocking Mechanism
+• 100 million tokens will be reserved for staking and gaming rewards
+• 20 million tokens will be reserved for development and marketing
+  (Locked in 8 equal periods every 2 months starting at first liquidity lock)
+• 25 million tokens will be reserved for advisory board
+  (All issued tokens will be vested)
+• 5 million tokens will be reserved for bounty programs
+  (locked until end of each bounty program)
+• 25 million tokens will be reserved for private seed round funding
+• 100 million tokens will be reserved for pre-sale (unsold tokens will be burned)
