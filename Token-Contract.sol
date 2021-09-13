@@ -456,8 +456,8 @@ contract FabweltToken is Context, ERC20, Ownable {
     string  private _NAME;
     string  private _SYMBOL;
     uint256   private _DECIMALS;
-	address public FeeAddress;
-	address public StakeAddress;
+    address public FeeAddress;
+    address public StakeAddress;
    
     uint256 private _MAX = ~uint256(0);
     uint256 private _DECIMALFACTOR;
@@ -552,8 +552,7 @@ contract FabweltToken is Context, ERC20, Ownable {
 
     function isExcluded(address account) public view returns (bool) {
         return _isExcluded[account];
-    }
-    
+    }  
 
     function totalFees() public view returns (uint256) {
         return _tFeeTotal;
@@ -619,10 +618,9 @@ contract FabweltToken is Context, ERC20, Ownable {
 		FeeAddress = account;
     }
 
-	
 	function updateFee(uint256 _txFee,uint256 _stakeFee,uint256 _charityFee) onlyOwner() public{
 		require(_txFee < 100 && _stakeFee < 100 && _charityFee < 100);
-        _TAX_FEE = _txFee* 100; 
+                _TAX_FEE = _txFee* 100; 
 		_CHARITY_FEE = _charityFee* 100;
 		_STAKE_FEE = _stakeFee* 100;
 		ORIG_TAX_FEE = _TAX_FEE;
@@ -726,7 +724,6 @@ contract FabweltToken is Context, ERC20, Ownable {
     function _transferBothExcluded(address sender, address recipient, uint256 tAmount) private {
         uint256 currentRate =  _getRate();
         (uint256 rAmount, uint256 rTransferAmount, uint256 rFee, uint256 tTransferAmount, uint256 tFee, uint256 tStake, uint256 tCharity) = _getValues(tAmount);
-//        uint256 rBurn =  tBurn.mul(currentRate);
         _bothTransferContent(sender, recipient, tAmount, rAmount, tTransferAmount, rTransferAmount);  
         _sendToCharity(tCharity, sender);
         _sendToStake(tStake, sender);
@@ -744,11 +741,9 @@ contract FabweltToken is Context, ERC20, Ownable {
     function _reflectFee(uint256 rFee, uint256 tFee, uint256 tStake, uint256 tCharity) private {
         _rTotal = _rTotal.sub(rFee);
         _tFeeTotal = _tFeeTotal.add(tFee);
-//        _tBurnTotal = _tBurnTotal.add(tBurn);
         _tCharityTotal = _tCharityTotal.add(tCharity);
         _tStakeTotal = _tStakeTotal.add(tStake);
         _tTotal = _tTotal;
-//		emit Transfer(address(this), address(0));
     }
     
 
