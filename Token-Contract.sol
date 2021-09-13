@@ -403,7 +403,6 @@ contract Ownable is Context {
 
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
-
     /**
      * @dev Returns the address of the current owner.
      */
@@ -474,7 +473,7 @@ contract FabweltToken is Context, ERC20, Ownable {
     uint256 public _CHARITY_FEE;
     uint256 public _STAKE_FEE;
 
-    // Track original fees to bypass fees for charity account
+    // Track original fees
     uint256 private ORIG_TAX_FEE;
     uint256 private ORIG_CHARITY_FEE;
     uint256 private ORIG_STAKE_FEE;
@@ -618,7 +617,7 @@ contract FabweltToken is Context, ERC20, Ownable {
 		FeeAddress = account;
     }
 
-	function updateFee(uint256 _txFee,uint256 _stakeFee,uint256 _charityFee) onlyOwner() public{
+    function updateFee(uint256 _txFee,uint256 _stakeFee,uint256 _charityFee) onlyOwner() public{
 		require(_txFee < 100 && _stakeFee < 100 && _charityFee < 100);
                 _TAX_FEE = _txFee* 100; 
 		_CHARITY_FEE = _charityFee* 100;
@@ -628,10 +627,6 @@ contract FabweltToken is Context, ERC20, Ownable {
 		ORIG_STAKE_FEE = _STAKE_FEE;
 	}
 	
-
-
-
-
     function _approve(address owner, address spender, uint256 amount) private {
         require(owner != address(0), "TOKEN20: approve from the zero address");
         require(spender != address(0), "TOKEN20: approve to the zero address");
@@ -645,7 +640,7 @@ contract FabweltToken is Context, ERC20, Ownable {
         require(recipient != address(0), "TOKEN20: transfer to the zero address");
         require(amount > 0, "Transfer amount must be greater than zero");
 
-        // Remove fees for transfers to and from charity account or to excluded account
+        // Remove fees for transfers to and from charity & stake account or to excluded account
         bool takeFee = true;
         if (FeeAddress == sender || FeeAddress == recipient || _isExcluded[recipient]) {
             takeFee = false;
@@ -746,7 +741,6 @@ contract FabweltToken is Context, ERC20, Ownable {
         _tTotal = _tTotal;
     }
     
-
     function _getValues(uint256 tAmount) private view returns (uint256, uint256, uint256, uint256, uint256, uint256, uint256) {
         (uint256 tFee, uint256 tStake, uint256 tCharity) = _getTBasics(tAmount, _TAX_FEE, _STAKE_FEE, _CHARITY_FEE);
         uint256 tTransferAmount = getTTransferAmount(tAmount, tFee, tStake, tCharity);
